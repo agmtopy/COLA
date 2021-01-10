@@ -125,7 +125,7 @@ public class StateMachinePlantUMLTest {
                 .when(checkCondition())
                 .perform(doAction());
 
-        // 申请申请高于P0售卖
+        // 申请高于P0售卖
         builder.externalTransition()
                 .from(Supplier_Manager_Processing)
                 .to(Price_Manager_Processing)
